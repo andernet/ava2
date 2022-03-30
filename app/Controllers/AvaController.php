@@ -58,13 +58,11 @@ class AvaController extends BaseController
         return view('ava/pos');
     }
 
-    public function pos()
+    public function ficha_critica()
     {
         echo view('templates/header');
         return view('ava/ficha_critica');
     }
-
-
 
     public function save_pre()
     {

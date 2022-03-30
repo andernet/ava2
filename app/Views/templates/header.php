@@ -69,10 +69,7 @@
             
                <ul class="navbar-nav mr-auto">
                   <li class="nav-item">
-                     <a class="nav-link" href="AlunoAuth/">Login Aluno</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" href="Auth/">Acesso Restrito</a>
+                     <a class="nav-link" href="Auth/">Login</a>
                   </li>
                </ul>
 
@@ -88,13 +85,8 @@
 
                <ul class="navbar-nav mr-auto">
 
-                  <li class="nav-item">
-   <a class="nav-link" style="color: #FFD700" href="/AlunoController/">Lista de Alunos</a>
-   </li>
-
-
 <li class="nav-item">
-   <a class="nav-link" style="color: #FFD700" href="/UserController/cad_user/">Lista de usuarios</a>
+   <a class="nav-link" style="color: #FFD700" href="/UserController/?????/">Lista usuários</a>
 </li>
 
 </ul>
@@ -122,6 +114,10 @@
                   <li class="nav-item">
          <a class="nav-link" href="/AvaController/pos">PÓS CURSO</a>
 </li>
+
+<li class="nav-item">
+         <a class="nav-link" href="/AvaController/ficha_critica">FICHA CRÍTICA</a>
+</li>
 </ul>
                <?php endif; ?>
 
@@ -136,6 +132,18 @@
                   </li>
                </ul>
                <?php endif; ?>
+
+               <ul class="navbar-nav my-2 my-lg-0">
+                  <li class="nav-item">
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </li>
+               </ul>
+
+               <ul class="navbar-nav my-2 my-lg-0">
+                  <li class="nav-item">
+                     <a style="color: #FFD700" href="http://172.16.2.173/owncloud" target="_blank">Onlyoffice</a>
+                  </li>
+               </ul>
             </div>
          </div>
       </nav>

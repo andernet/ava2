@@ -30,7 +30,7 @@ class Auth extends BaseController
         //$data['user'] = $model->where('id', session()->get('id'))->first();
         echo view('templates/header', $data);
         echo view('auth/login');
-        echo view('templates/footer');
+        //echo view('templates/footer');
     }
 
     public function register()

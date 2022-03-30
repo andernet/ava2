@@ -95,9 +95,12 @@ class S_Aluno extends Migration
         // $this->forge->addForeignKey('id_situacao', 'p_situacao', 'id_situacao', 'CASCADE', 'CASCADE');
 
 
+
+
+
         $this->forge->createTable('s_aluno', false);
 
-        $this->db->query("INSERT INTO `s_aluno` (`id_aluno`, `nome_aluno`, `cpf`, `id_curso`, `id_tratamento`, `id_posto`, `id_quadro`, `id_especialidade`, `id_om`, `id_situacao`, `id_user_tipo`, `saram`, `cod_aluno`, `password`, `created_at`, `updated_at`) VALUES (NULL, 'nome teste', '123456', '1', '1', '1', '1', '1', '1', '1', '1', '123456', '25252', '252555', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)");
+        $this->db->query("INSERT INTO `s_aluno` (`username`, `nome_aluno`, `cpf`, `id_curso`, `id_tratamento`, `id_posto`, `id_quadro`, `id_especialidade`, `id_om`, `id_situacao`, `id_user_tipo`, `saram`, `cod_aluno`, `password`, `created_at`, `updated_at`) VALUES ('aluno', 'nome teste', '123456', '1', '1', '1', '1', '1', '1', '1', '1', '123456', '25252', '$2y$10$3kjq1C8ZuHH12.MoKGJBM.p3vFCE1SgTW5T7v5T7uFVT0UwFH9vti', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)");
     }
 
     public function down()

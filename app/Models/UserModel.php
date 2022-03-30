@@ -15,10 +15,20 @@ class UserModel extends Model
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = [
-        'user_nome',
         'username',
+        'nome',
+        'cpf',
+        'id_curso',
+        'id_tratamento',
+        'id_posto',
+        'id_quadro',
+        'id_especialidade',
+        'id_om',
+        'id_situcacao',
+        'id_user_tipo',
+        'saram',
+        'cod_aluno',
         'password',
-        'id_user_tipo'
     ];
 
     // Dates

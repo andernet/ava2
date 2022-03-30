@@ -1,36 +1,4 @@
-<?php
-  
-   //$select_curso = "SELECT * FROM curso WHERE id_situacao = 2";
-   //$select_curso = "SELECT * FROM curso";
-?>
-<!DOCTYPE html>
-<html lang="pt-br">
-   <head>
-      <meta charset="utf-8"/>
-      <title>Formulário de Avaliação Final do Curso </title>
-      <link rel="stylesheet" href="styles/layout.css" type="text/css">
-      <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
-   </head>
-   <style>
-	.demo {
-		border:1px sólido #C0C0C0;
-		border-collapse:colapso;
-		padding:5px;
-	}
-	.demo th {
-		border:1px sólido #C0C0C0;
-		padding:5px;
-		background:#F0F0F0;
-	}
-	.demo td {
-		border:1px sólido #C0C0C0;
-		padding:5px;
-	}
-</style>
-   <body>
-      <?php 
-         require_once "menu.php"; ?>
-      <!-- content -->
+
       <div class="wrapper row2">
       <div id="container" class="clear">
          <h2 align="center">DIVISÃO DE PLANEJAMENTO</h2>
@@ -51,8 +19,6 @@
                            ?>
                      </select>
                   </td>
-                  <td>Data:</td>
-                  <td><input type="text" name="data" size="20" maxlength="20" value="<?php echo $data ?>" readonly="true"></td>
                </tr>
             </table>
 

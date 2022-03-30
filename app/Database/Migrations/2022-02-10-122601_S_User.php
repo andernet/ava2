@@ -14,44 +14,77 @@ class S_User extends Migration
                 'unsigned'       => true,
                 'auto_increment' => true,
             ],
-            'user_nome'       => [
-                'type'       => 'VARCHAR',
-                'constraint' => '50',
-            ],
             'username'       => [
                 'type'       => 'VARCHAR',
                 'constraint' => '20',
+            ],
+            'nome'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '50',
+            ],
+            'cpf'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '11',
+            ],
+            'id_curso'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_tratamento'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_posto'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_quadro'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_especialidade'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_om'       => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'       => true,
+            ],
+            'id_situacao'    => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'   => true,
+            ],
+            'id_user_tipo'    => [
+                'type'       => 'INT',
+                'constraint' => 5,
+                'unsigned'   => true,
+            ],
+            'saram'       => [
+                'type'       => 'VARCHAR',
+                'constraint' => '10',
+            ],
+            'cod_aluno'       => [
+                'type'       => 'INT',
+                'constraint' => 15,
+                'unsigned'       => true,
+                'unique'     => true,
             ],
             'password'       => [
                 'type'       => 'VARCHAR',
                 'constraint' => '60',
             ],
-            'id_user_tipo'       => [
-                'type'       => 'INT',
-                'constraint' => 5,
-                'unsigned'       => true,
-            ],
             'created_at datetime default current_timestamp',
     'updated_at datetime default current_timestamp on update current_timestamp',
-            //'created_at'       => [
-              //  'type'           => 'DATETIME',
-                //'default'        => 'CURRENT_TIMESTAMP',
-           // ],
-            //'updated_at'       => [
-              //  'type'           => 'DATETIME',
-                //'default'        => 'current_timestamp()',
-            ]
-    // ]
-    );
-        $data = [
-            'user_nome' => '123456',
-            'username' => '123456',
-            'password' => '$2y$10$3kjq1C8ZuHH12.MoKGJBM.p3vFCE1SgTW5T7v5T7uFVT0UwFH9vti',
-            'id_user_tipo' => '3',
-            'created_at' => '0000-00-00 00:00:00',
-            'updated_at' => '0000-00-00 00:00:00',
-        ];
+            ]);
 
+        
         $this->forge->addKey('id_user', true);
 
 
@@ -60,10 +93,10 @@ class S_User extends Migration
 
         $this->forge->createTable('s_user', false);
 
-        $this->db->query("INSERT INTO s_user (user_nome, username, password, id_user_tipo, created_at, updated_at) VALUES (:user_nome:, :username:, :password:, :id_user_tipo:, :created_at:, :updated_at:)", $data);
+        
+        $this->db->query("INSERT INTO `s_user` (`id_user`, `username`, `nome`, `cpf`, `id_curso`, `id_tratamento`, `id_posto`, `id_quadro`, `id_especialidade`, `id_om`, `id_situacao`, `id_user_tipo`, `saram`, `cod_aluno`, `password`, `created_at`, `updated_at`) VALUES (NULL, 'admin', 'Administrador', '123456789', '1', '1', '1', '1', '1', '1', '1', '1', '123456', '123456789', '$2y$10$3kjq1C8ZuHH12.MoKGJBM.p3vFCE1SgTW5T7v5T7uFVT0UwFH9vti', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP); ");
 
-        //$this->db->table('users')->insert($data);
-
+        $this->db->query("INSERT INTO `s_user` (`id_user`, `username`, `nome`, `cpf`, `id_curso`, `id_tratamento`, `id_posto`, `id_quadro`, `id_especialidade`, `id_om`, `id_situacao`, `id_user_tipo`, `saram`, `cod_aluno`, `password`, `created_at`, `updated_at`) VALUES (NULL, 'aluno', 'Aluno', '123456789', '1', '1', '1', '1', '1', '1', '1', '3', '123456', '9876543', '$2y$10$3kjq1C8ZuHH12.MoKGJBM.p3vFCE1SgTW5T7v5T7uFVT0UwFH9vti', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP); ");
         
     }
 
@@ -73,3 +106,26 @@ class S_User extends Migration
     }
 
 }
+
+
+
+// $data = [
+//             'situacao' => 'REPROVADO',
+//         ];
+
+//         $data1 = [
+//             'situacao' => 'APROVADO',
+//         ];
+//         $this->forge->addKey('id_situacao', true);
+//         $this->forge->createTable('p_situacao', false);
+
+//         $this->db->query("INSERT INTO p_situacao (situacao) VALUES (:situacao:)", $data);
+//         $this->db->query("INSERT INTO p_situacao (situacao) VALUES (:situacao:)", $data1);
+
+
+
+
+        // $this->db->query("INSERT INTO s_user (user_nome, username, password, id_user_tipo, created_at, updated_at) VALUES (:user_nome:, :username:, :password:, :id_user_tipo:, :created_at:, :updated_at:)", $data);
+
+
+//:username:, :nome:, :cpf:, :id_curso:, :id_tratamento:, :id_posto:, :id_quadro:, :id_especialidade:, :id_om:, :id_situacao:, :id_user_tipo:,  :saram:, :cod_aluno:, :password:
