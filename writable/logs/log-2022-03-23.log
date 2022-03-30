@@ -1,0 +1,632 @@
+CRITICAL - 2022-03-23 07:24:20 --> Undefined array key "situacao_descricao"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(43): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 07:41:38 --> Undefined variable $query
+#0 /var/www/ava/app/Controllers/AlunosController.php(55): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 08:00:10 --> Undefined array key "id_aluno"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(55): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:00:29 --> Undefined array key "quadro"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(56): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:01:08 --> Undefined array key "posto_sigla"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:03:14 --> Undefined array key "posto_sigla"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:06:44 --> Undefined array key "posto_sigla"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:13:56 --> Undefined array key "posto"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:14:28 --> Undefined array key "posto"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:17:07 --> Undefined array key "posto"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(64): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 08:17:24 --> Unknown column 'p.posto' in 'field list'
+CRITICAL - 2022-03-23 08:17:24 --> Unknown column 'p.posto' in 'field list'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/AlunosController.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:18:13 --> Undefined array key "cpf"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(65): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(57): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:18:49 --> Undefined array key "om_sigla"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(58): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:19:28 --> Undefined array key "situacao_descricao"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(59): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:20:02 --> Undefined array key "saram"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(59): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:20:35 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(60): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:31:58 --> Undefined variable $row
+#0 /var/www/ava/app/Controllers/CertificadoController.php(73): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-23 08:38:49 --> Table 'ava.s_alunos' doesn't exist
+CRITICAL - 2022-03-23 08:38:49 --> Table 'ava.s_alunos' doesn't exist
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 08:40:59 --> Undefined variable $row
+#0 /var/www/ava/app/Controllers/CertificadoController.php(74): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-23 08:41:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','623b23a1a0526'' at line 1
+CRITICAL - 2022-03-23 08:41:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','623b23a1a0526'' at line 1
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/app/Controllers/CertificadoController.php(76): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#5 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-23 08:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','623b23a68d723'' at line 1
+CRITICAL - 2022-03-23 08:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ','623b23a68d723'' at line 1
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/app/Controllers/CertificadoController.php(76): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#5 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-23 08:42:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-03-23 08:42:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/app/Controllers/CertificadoController.php(76): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#5 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-23 08:43:15 --> Undefined variable $sql
+#0 /var/www/ava/app/Controllers/CertificadoController.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 08:43:37 --> Undefined variable $sql
+#0 /var/www/ava/app/Controllers/CertificadoController.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 08:43:43 --> Undefined variable $sql
+#0 /var/www/ava/app/Controllers/CertificadoController.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 08:43:53 --> Undefined variable $sql
+#0 /var/www/ava/app/Controllers/CertificadoController.php(77): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-23 12:00:18 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:00:18 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:00:30 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:00:30 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:01:00 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:01:00 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:01:55 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:01:55 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:01:57 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:01:57 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 12:02:41 --> Undefined variable $data
+#0 /var/www/ava/app/Controllers/CertificadoController.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 12:03:10 --> Undefined variable $dados
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(37): view()
+#5 /var/www/ava/app/Controllers/CertificadoController.php(131): App\Controllers\CertificadoController->geraPDF()
+#6 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#7 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-23 12:03:14 --> Undefined variable $dados
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(37): view()
+#5 /var/www/ava/app/Controllers/CertificadoController.php(131): App\Controllers\CertificadoController->geraPDF()
+#6 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#7 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-23 12:03:47 --> Attempt to read property "tratamento" on array
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(37): view()
+#5 /var/www/ava/app/Controllers/CertificadoController.php(131): App\Controllers\CertificadoController->geraPDF()
+#6 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#7 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-23 12:05:01 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:05:01 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(113): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:05:09 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:05:09 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(113): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 12:05:10 --> Column 'cod_aluno' in where clause is ambiguous
+CRITICAL - 2022-03-23 12:05:10 --> Column 'cod_aluno' in where clause is ambiguous
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(113): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 13:24:59 --> Attempt to read property "tratamento" on array
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(126): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 13:25:38 --> Attempt to read property "tratamento" on array
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(66): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(126): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 13:25:49 --> Undefined property: stdClass::$posto_descricao
+#0 /var/www/ava/app/Views/certificados/certificado_f.php(71): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(126): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 13:41:12 --> Undefined variable $cod_aluno
+#0 /var/www/ava/app/Controllers/CertificadoController.php(92): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-23 13:57:40 --> Unknown column 'id_aluno' in 'where clause'
+CRITICAL - 2022-03-23 13:57:40 --> Unknown column 'id_aluno' in 'where clause'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 14:15:40 --> Unknown column 'id_aluno' in 'where clause'
+CRITICAL - 2022-03-23 14:15:40 --> Unknown column 'id_aluno' in 'where clause'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-23 14:15:42 --> Unknown column 'id_aluno' in 'where clause'
+CRITICAL - 2022-03-23 14:15:42 --> Unknown column 'id_aluno' in 'where clause'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(94): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-23 14:22:29 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:31:53 --> Undefined variable $dados
+#0 /var/www/ava/app/Controllers/CertificadoController.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:32:20 --> Undefined variable $dados
+#0 /var/www/ava/app/Controllers/CertificadoController.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:32:29 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(128): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:34:08 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:34:32 --> syntax error, unexpected single-quoted string "cod_aluno", expecting identifier or variable or "{" or "$"
+#0 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:34:42 --> syntax error, unexpected token "=>", expecting "]"
+#0 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:34:55 --> syntax error, unexpected token "=>", expecting "]"
+#0 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:34:55 --> syntax error, unexpected token "=>", expecting "]"
+#0 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:35:12 --> syntax error, unexpected token "=>", expecting "]"
+#0 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:35:36 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:35:51 --> Cannot use object of type stdClass as array
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 14:36:13 --> Cannot use object of type stdClass as array
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 14:36:15 --> Cannot use object of type stdClass as array
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 14:36:23 --> Cannot use object of type stdClass as array
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-23 14:36:29 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /var/www/ava/app/Controllers/CertificadoController.php on line 137
+#0 /var/www/ava/app/Controllers/CertificadoController.php(137): view()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:37:19 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in /var/www/ava/app/Controllers/CertificadoController.php on line 137
+#0 /var/www/ava/app/Controllers/CertificadoController.php(137): view()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:53:14 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:53:27 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:53:31 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(129): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:54:06 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:54:09 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-23 14:55:56 --> Undefined array key "cod_aluno"
+#0 /var/www/ava/app/Controllers/CertificadoController.php(130): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->select_certificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,258 @@
+CRITICAL - 2022-03-21 14:45:09 --> Cannot use object of type App\Models\AlunosModel as array
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 19:35:31 --> Undefined variable $alunos
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(55): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 19:35:58 --> Undefined variable $data
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(55): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 19:39:12 --> Undefined variable $data
+#0 /var/www/ava/app/Controllers/AlunosController.php(58): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 19:39:37 --> Undefined array key "id_aluno"
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(58): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 19:42:33 --> Undefined variable $data
+#0 /var/www/ava/app/Views/alunos/lista_alunos.php(28): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunosController.php(68): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 19:42:57 --> hash() expects at least 2 arguments, 1 given
+#0 /var/www/ava/app/Controllers/CertificadoController.php(74): hash()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 19:57:29 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 19:57:29 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 19:57:50 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 19:57:50 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:05:18 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:05:18 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:06:35 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:06:35 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:07:02 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:07:02 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 20:07:25 --> Undefined property: App\Controllers\CertificadoController::$result
+#0 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-21 20:07:50 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:07:50 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:09:04 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:09:04 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 20:09:17 --> You must use the "set" method to update an entry.
+#0 /var/www/ava/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /var/www/ava/app/Controllers/CertificadoController.php(82): CodeIgniter\Database\BaseBuilder->insert()
+#2 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#3 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 20:13:36 --> You must use the "set" method to update an entry.
+#0 /var/www/ava/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#2 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#3 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 20:13:44 --> You must use the "set" method to update an entry.
+#0 /var/www/ava/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#2 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#3 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-21 20:14:00 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:14:00 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:14:04 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:14:04 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:14:53 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:14:53 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(78): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:17:02 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:17:02 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:17:11 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:17:11 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-21 20:17:35 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+CRITICAL - 2022-03-21 20:17:35 --> Duplicate entry '115478968745' for key 's_certificado_emitido.cod_verificacao'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 20:20:15 --> Undefined property: App\Controllers\CertificadoController::$builder
+#0 /var/www/ava/app/Controllers/CertificadoController.php(81): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

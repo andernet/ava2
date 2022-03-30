@@ -1,0 +1,70 @@
+CRITICAL - 2022-03-15 06:46:47 --> Invalid file: include_files/header.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/UserController.php(90): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->cad_user()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-15 06:47:51 --> Invalid file: alunos/cad_user.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/UserController.php(95): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->cad_user()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-15 06:49:20 --> Invalid file: alunos/cad_user.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/UserController.php(95): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->cad_user()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-15 07:09:06 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-15 07:10:00 --> noauth filter must have a matching alias defined.
+#0 /var/www/ava/system/Filters/Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias()
+#1 /var/www/ava/system/CodeIgniter.php(384): CodeIgniter\Filters\Filters->enableFilter()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-15 07:26:32 --> Column 'id_user_tipo' cannot be null
+CRITICAL - 2022-03-15 07:26:32 --> Column 'id_user_tipo' cannot be null
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /var/www/ava/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /var/www/ava/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /var/www/ava/system/BaseModel.php(658): CodeIgniter\Model->insert()
+#8 /var/www/ava/app/Controllers/UserController.php(84): CodeIgniter\BaseModel->save()
+#9 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->cad_user()
+#10 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#11 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#12 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-15 10:16:02 --> Table 'p_cursos_curriculo' already exists
+ERROR - 2022-03-15 13:01:44 --> Table 'ava.alunos' doesn't exist
+CRITICAL - 2022-03-15 13:01:44 --> Table 'ava.alunos' doesn't exist
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/ava/system/BaseModel.php(1084): CodeIgniter\Model->countAllResults()
+#6 /var/www/ava/app/Controllers/AlunosController.php(30): CodeIgniter\BaseModel->paginate()
+#7 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunosController->lista_alunos()
+#8 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

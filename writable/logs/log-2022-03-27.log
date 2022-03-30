@@ -1,0 +1,28 @@
+CRITICAL - 2022-03-27 22:12:36 --> Call to undefined function set_checkbox()
+#0 /var/www/ava/system/View/View.php(210): include()
+#1 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /var/www/ava/app/Controllers/AvaController.php(33): view()
+#4 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AvaController->ava_curso()
+#5 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-27 22:25:56 --> Invalid file: ava/register.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/AvaController.php(44): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AvaController->save_pre()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-27 23:04:22 --> Invalid file: ava/register.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/AvaController.php(44): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AvaController->save_pre()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

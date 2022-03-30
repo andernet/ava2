@@ -1,0 +1,395 @@
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+
+
+
+        // [id_aluno] => 1
+//             [nome_aluno] => xxxxxxxxxxxxxxx
+//             [cpf] => 2
+//             [id_curso] => 2
+//             [id_tratamento] => 2
+//             [id_posto] => 2
+//             [id_quadro] => 2
+//             [id_especialidade] => 2
+//             [id_om] => 2
+//             [id_situcacao] => 2
+//             [saram] => 2
+//             [cod_aluno] => 2
+//    
+
+
+
+<?php
+
+
+
+        <?php //foreach ($data as $product) { ?>
+                <tr>
+                    <td><?= //$product->id_aluno ?></td>
+                    <td><?= //$product->nome_aluno ?></td>
+                    <td><?= //$product->cpf ?></td>
+                </tr>
+            <?php //} ?>
+
+include("mpdf/mpdf.php");
+include "conn.php";
+//include_once "menu.html";
+$sql = "SELECT * FROM lista_aluno";
+$result = mysql_query($sql, $conexao);
+
+//print_r($result);
+//die();
+
+while ($consulta = mysql_fetch_array($result)) {
+$nome_arquivo = $consulta['curso'] . ' - ' . $consulta['posto'] . ' ' . $consulta['quadro'] . ' ' . $consulta['especialidade'] . ' ' . $consulta['nome_aluno'];
+
+
+$html = "
+    <!DOCTYPE html>
+     <html> 
+     <head>
+        <meta http-equiv = 'Content-Type' content = 'text/html; charset=utf-8' />
+        <title>Gerador de Certificados</title>
+        <link href = 'css/stylesheet.css' media = 'screen' rel = 'stylesheet' type = 'text/css' />
+    </head>
+    <style type = 'text/css'>
+        body{
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('images/back.jpg') no-repeat;
+            background-position: center;
+
+        }
+        h1 {
+            font-size: 22px;
+        }
+        h2 {
+            font-size: 30px;
+        }
+        h6 {
+            font-size: 40px;
+        }
+    </style>
+    <body>
+        <div align = 'center'>
+            <table width = '900' border = '0' >
+                <tr>
+                    <td width = '900' align = 'center'><h1>MINIST&Eacute;RIO DA DEFESA</h1></td>
+                </tr>
+                <tr>
+                    <td align = 'center'><h1>COMANDO DA AERON&Aacute;UTICA</h1></td>
+                </tr>
+                <tr>
+                    <td align = 'center'><h1>CENTRO DE INTELIGÊNCIA DA AERON&Aacute;UTICA</h1></td>
+                </tr>
+                <tr>
+                    <td align = 'center'><h6>CERTIFICADO</h6></td>
+                </tr>
+                <tr>
+                    <td align = 'center'>Certifico que</td>
+                </tr>
+            </table>
+            <table width = '900' border = '0' >
+                <tr>
+                    <td align = 'center'>&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align = 'center'><h2><b>$consulta[posto] $consulta[quadro] $consulta[especialidade] $consulta[nome_aluno]</b></h2></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td align = 'center'>&nbsp;
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align = 'center'>concluiu, com aproveitamento, o <b>$consulta[curso]</b>, realizado pelo Centro de Inteligência da Aeronáutica, no período de $consulta[periodo].</td>
+                </tr>
+                <tr>
+                    <td></div></td>
+                </tr>
+                <tr>
+                    <td></div></td>
+                </tr>
+                <tr>
+                    <td></div></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>";
+
+$mpdf = new mPDF('utf-8', 'A4', '8', '', 10, 11, 22, 22, 10, 20);
+    $mpdf->setHeader(); // Clear headers before adding page
+    $mpdf->AddPage('L', '', '', '', '', 29, 25, 55, 45, 18, 12);
+    $mpdf->autoScriptToLang = true;
+    $mpdf->baseScript = 1;
+    $mpdf->autoVietnamese = true;
+    $mpdf->autoArabic = true;
+    $mpdf->autoLangToFont = true;
+    $mpdf->WriteHTML($html);
+    $html = ob_get_clean();
+    $sql = "SELECT * FROM conteudo_curricular";
+    $result1 = mysql_query($sql, $conexao);
+    $html = '
+    <html>
+    <head>
+    </head>
+    <style>
+    body {
+        background-image: url("images/fundo.jpg") no - repeat;
+        background-position: center;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+        </style>
+        <body>
+        <h2 align = "center">'.$consulta[curso].'</h2>
+        <h1 align = "center">CONTEÚDO CURRICULAR</h1>
+        <div align = "center">
+        <table width = "900" border = "1" >
+        <tr>
+        <th width = "900" align = "center">DISCIPLINA</th>
+        <th width = "900" align = "center">CARGA HOR&Aacute;RIA</th>
+        </tr>';
+    while ($consulta1 = mysql_fetch_array($result1)) {
+        $html .= '<tr>';
+        $html .= '<td width = "900">' . $consulta1['disciplina'] . '</td>';
+        $html .= '<td width = "900" align = "center">' . $consulta1['carga_horaria'] . '</td>';
+        $html .= '</tr>';
+    }
+    $html .= '</table>
+        </div>
+        </body>
+        </html>';
+    $mpdf->AddPage('L', '', '', '', '', 25, 25, 10, 45, 18, 12);
+    $mpdf->WriteHTML($html);
+    $mpdf->Output("certificados/$nome_arquivo.pdf", 'F');
+//    $mpdf->Output("certificados/teste.pdf", "F");
+    
+}
+//include "download_pdf.php";
+?>
+
+
+
+
+
+teste
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Users</title>
+
+    <style>
+        ul.pagination li {
+            display: inline;
+        }
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        ul.pagination li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+    </style>
+    <script>
+        function confirma() {
+            if (!confirm('Desejar excluir o usuário?')) {
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+login.php
+-----------------------------
+
+//$routes->get('/', 'Home::index');
+//$routes->get('/', 'User::index');
+//$routes->get('document', 'Document::index');
+//$routes->get('delete', 'User::delete'); 
+$routes->add('lista_usuarios', 'User::lista_usuarios');
+$routes->get('register', 'User::register');
+$routes->add('login', 'User::login');
+
+//aluno
+$routes->add('lista_aluno', 'aluno::lista_aluno');
+//$routes->match(['get','post'],'register_aluno', 'aluno::register_aluno', ['filter' => 'noauth']);
+$routes->get('register_aluno', 'aluno::register_aluno');
+
+//$routes->get('/', 'Users::index', ['filter' => 'noauth']);
+$routes->get('logout', 'Users::logout');
+$routes->match(['get','post'],'register', 'Users::register', ['filter' => 'noauth']);
+//$routes->match(['get','post'],'profile', 'Users::profile',['filter' => 'auth']);
+$routes->get('dashboard', 'Dashboard::index',['filter' => 'auth']);
+
+------------------------
+
+<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container mt-5">
+         <div class="login-main-text">
+            <h2>Application<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+ 
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form>
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text" class="form-control" placeholder="User Name">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-black">Login</button>
+                  <button type="submit" class="btn btn-secondary">Register</button>
+               </form>
+            </div>
+         </div>
+
+
+
+
+
+ //    $mpdf->AddPage('L', '', '', '', '', 25, 25, 10, 45, 18, 12);
+
+    // $mpdf->Output("certificados/$nome_arquivo.pdf", 'D');    
+
+    
+//}
+//include "download_pdf.php";
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+teste
+$2y$10$dp52CziLon3utj2mQg8jKOWnXugi8yHQQHT3Rp9MBPzct244MQ0cm
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <title>Users</title>
+
+    <style>
+        ul.pagination li {
+            display: inline;
+        }
+
+        ul.pagination li a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+        }
+
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        ul.pagination li a:hover:not(.active) {
+            background-color: #ddd;
+        }
+    </style>
+    <script>
+        function confirma() {
+            if (!confirm('Desejar excluir o usuário?')) {
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+login.php
+
+
+<link href="bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container mt-5">
+         <div class="login-main-text">
+            <h2>Application<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+ 
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form>
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text" class="form-control" placeholder="User Name">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" class="form-control" placeholder="Password">
+                  </div>
+                  <button type="submit" class="btn btn-black">Login</button>
+                  <button type="submit" class="btn btn-secondary">Register</button>
+               </form>
+            </div>
+         </div>

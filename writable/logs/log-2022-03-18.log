@@ -1,0 +1,27 @@
+ERROR - 2022-03-18 06:48:50 --> Table 'p_status' already exists
+ERROR - 2022-03-18 07:07:40 --> Referencing column 'id_curso' and referenced column 'id_curso' in foreign key constraint 's_alunos_id_curso_foreign' are incompatible.
+ERROR - 2022-03-18 07:09:01 --> Referencing column 'id_curso' and referenced column 'id_curso' in foreign key constraint 's_alunos_id_curso_foreign' are incompatible.
+ERROR - 2022-03-18 07:21:13 --> Failed to open the referenced table 'p_situcacao'
+ERROR - 2022-03-18 07:21:35 --> Failed to open the referenced table 'p_situcacao'
+ERROR - 2022-03-18 07:23:07 --> Failed to open the referenced table 'p_situcacao'
+ERROR - 2022-03-18 07:24:05 --> Failed to open the referenced table 'p_situcacao'
+ERROR - 2022-03-18 07:30:06 --> Referencing column 'id_user_tipo' and referenced column 'id_user_tipo' in foreign key constraint 's_users_id_user_tipo_foreign' are incompatible.
+ERROR - 2022-03-18 07:50:29 --> Referencing column 'id_status' and referenced column 'id_status' in foreign key constraint 'p_cursos_id_status_foreign' are incompatible.
+ERROR - 2022-03-18 07:50:59 --> Failed to open the referenced table 'p_curso_tipo'
+ERROR - 2022-03-18 07:56:42 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`))
+ERROR - 2022-03-18 07:56:46 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 07:57:06 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`))
+ERROR - 2022-03-18 07:59:33 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 07:59:49 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`))
+ERROR - 2022-03-18 08:12:30 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 08:12:47 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`))
+ERROR - 2022-03-18 08:13:56 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 08:14:09 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_curso_tipo_foreign` FOREIGN KEY (`id_curso_tipo`) REFERENCES `p_curso_tipo` (`id_curso_tipo`))
+ERROR - 2022-03-18 08:14:25 --> Failed to open the referenced table 's_alunos'
+ERROR - 2022-03-18 08:17:02 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_curso_tipo_foreign` FOREIGN KEY (`id_curso_tipo`) REFERENCES `p_curso_tipo` (`id_curso_tipo`))
+ERROR - 2022-03-18 08:18:55 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 08:19:17 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`))
+ERROR - 2022-03-18 08:20:46 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_status_foreign` FOREIGN KEY (`id_status`) REFERENCES `p_status` (`id_status`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2022-03-18 08:23:37 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_curso_status_foreign` FOREIGN KEY (`id_curso_status`) REFERENCES `p_curso_status` (`id_curso_status`))
+ERROR - 2022-03-18 08:27:27 --> Table 'p_curso' already exists
+ERROR - 2022-03-18 08:27:38 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`p_curso`, CONSTRAINT `p_curso_id_curso_status_foreign` FOREIGN KEY (`id_curso_status`) REFERENCES `p_curso_status` (`id_curso_status`))

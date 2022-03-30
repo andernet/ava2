@@ -1,0 +1,152 @@
+ERROR - 2022-03-14 07:52:23 --> Table 'ava.users' doesn't exist
+ERROR - 2022-03-14 07:53:58 --> Table 's_users' already exists
+CRITICAL - 2022-03-14 09:24:59 --> Undefined variable $nome_arquivo
+#0 /var/www/ava/app/Controllers/CertificadoController.php(29): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#2 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 09:26:31 --> fopen(certificados/teste.pdf): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/vendor/mpdf/mpdf/src/Mpdf.php(9606): fopen()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(30): Mpdf\Mpdf->Output()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:21:46 --> Undefined variable $mpdf
+#0 /var/www/ava/app/Controllers/CertificadoController.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/Router/Router.php(518): include_once('...')
+#2 /var/www/ava/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#3 /var/www/ava/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#4 /var/www/ava/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:21:59 --> syntax error, unexpected token "=>", expecting "]"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:22:29 --> syntax error, unexpected token ";", expecting "]"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:22:30 --> syntax error, unexpected token ";", expecting "]"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:23:44 --> syntax error, unexpected token ";", expecting "]"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:24:07 --> syntax error, unexpected token ";", expecting "]"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:24:15 --> syntax error, unexpected token ";", expecting ")"
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:24:32 --> Unmatched '}'
+#0 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-14 10:24:53 --> Undefined variable $dados_cu
+#0 /var/www/ava/app/Views/certificados/certificado.php(120): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/CertificadoController.php(26): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-14 12:19:03 --> Class "App\Controllers\mPDF" not found
+#0 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraPDF()
+#1 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-03-14 13:48:36 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 13:49:05 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 13:59:31 --> Key column 'users_name' doesn't exist in table
+ERROR - 2022-03-14 13:59:52 --> Duplicate column name 'id_tratamento'
+ERROR - 2022-03-14 14:00:04 --> Key column 'id_tratamentoke' doesn't exist in table
+ERROR - 2022-03-14 14:09:35 --> Key column 'id_tratamentoke' doesn't exist in table
+ERROR - 2022-03-14 14:09:50 --> Key column 'id_tratamentoke' doesn't exist in table
+ERROR - 2022-03-14 14:10:19 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:11:21 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:20:08 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:23:43 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:24:40 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:31:11 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:31:15 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:31:55 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:32:20 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:32:38 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:32:46 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:33:53 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:33:57 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:35:27 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:35:47 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:35:51 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:36:24 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:38:15 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:39:15 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:39:46 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:40:09 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+ERROR - 2022-03-14 14:43:27 --> Incorrect table definition; there can be only one auto column and it must be defined as a key
+CRITICAL - 2022-03-14 14:43:41 --> Cannot declare class App\Database\Migrations\Cursos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-14 14:43:45 --> Cannot declare class App\Database\Migrations\Cursos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-14 14:44:47 --> Cannot declare class App\Database\Migrations\Cursos, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-14 14:45:55 --> Table 's_certificados' already exists
+ERROR - 2022-03-14 14:46:40 --> Referencing column 'id_tratamento' and referenced column 'id_tratamento' in foreign key constraint 's_certificados_id_tratamento_foreign' are incompatible.
+ERROR - 2022-03-14 19:30:47 --> Unknown table 'ava.s_cursos'
+ERROR - 2022-03-14 23:07:31 --> Table 'p_cursos_tipo' already exists
+ERROR - 2022-03-14 23:09:52 --> Table 'ava.s_users' doesn't exist
+ERROR - 2022-03-14 23:10:27 --> Table 'ava.s_users' doesn't exist
+ERROR - 2022-03-14 23:12:29 --> Table 'p_status' already exists

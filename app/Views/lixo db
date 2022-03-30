@@ -1,0 +1,32 @@
+//verificar sql
+$sql = $builder->getCompiledSelect();
+
+//retornar array
+        //$data['dados'] = $builder->get()->getResultArray();
+        //$data['dados'] = $builder->get()->getResult();
+
+        //retorna objeto para acessar echo $data['dados']->id_curso;
+        $data['dados'] = $builder->get()->getRow();
+        //$data['dados'] = $builder->get()->getRow();
+
+
+//retornar array
+//$data['dados'] = $builder->get()->getResultArray();
+
+        //retorna objeto
+    $data['dados'] = $builder->get()->getRow();
+
+$data = [
+            'status' => 1,
+            'status_descricao' => 'INATIVO',
+        ];
+
+        $data1 = [
+            'status' => 2,
+            'status_descricao' => 'ATIVO',
+        ];
+
+          //$this->db->query("INSERT INTO p_status (status, status_descricao) VALUES (:status:, :status_descricao:)", $data);
+        //$this->db->query("INSERT INTO p_status (status, status_descricao) VALUES (:status:, :status_descricao:)", $data1);
+
+
