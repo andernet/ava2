@@ -86,7 +86,11 @@
                <ul class="navbar-nav mr-auto">
 
 <li class="nav-item">
-   <a class="nav-link" style="color: #FFD700" href="/UserController/?????/">Lista usuários</a>
+   <a class="nav-link" style="color: #FFD700" href="/UserController/">Lista usuários</a>
+</li>
+
+<li class="nav-item">
+   <a class="nav-link" style="color: #FFD700" href="/CertificadoController/">Gerar Certificados</a>
 </li>
 
 </ul>

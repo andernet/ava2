@@ -35,7 +35,7 @@ class S_Certificado_emitido extends Migration
 
         $this->forge->addKey('id_certificado_emitido', true);
         
-        $this->forge->addForeignKey('cod_aluno', 's_aluno', 'cod_aluno', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('cod_aluno', 's_user', 'cod_aluno', 'CASCADE', 'CASCADE');
 
         $this->forge->createTable('s_certificado_emitido', false);
         

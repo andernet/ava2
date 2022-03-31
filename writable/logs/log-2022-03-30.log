@@ -74,3 +74,143 @@ CRITICAL - 2022-03-30 14:51:44 --> Undefined variable $data
 #7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
 #8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-03-30 18:10:58 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:12:05 --> Cannot redeclare App\Controllers\AlunoController::update()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:13:32 --> Undefined array key "username"
+#0 /var/www/ava/app/Views/aluno/lista_aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunoController.php(61): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-30 18:16:18 --> Unknown column 'u.id_aluno' in 'field list'
+CRITICAL - 2022-03-30 18:16:18 --> Unknown column 'u.id_aluno' in 'field list'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/AlunoController.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-30 18:16:20 --> Unknown column 'u.id_aluno' in 'field list'
+CRITICAL - 2022-03-30 18:16:20 --> Unknown column 'u.id_aluno' in 'field list'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/AlunoController.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-30 18:16:21 --> Unknown column 'u.id_aluno' in 'field list'
+CRITICAL - 2022-03-30 18:16:21 --> Unknown column 'u.id_aluno' in 'field list'
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/app/Controllers/AlunoController.php(59): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 18:16:52 --> Undefined array key "id_aluno"
+#0 /var/www/ava/app/Views/aluno/lista_aluno.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunoController.php(61): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 18:17:09 --> Undefined array key "username"
+#0 /var/www/ava/app/Views/aluno/lista_aluno.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunoController.php(61): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-30 18:17:29 --> Undefined array key "id_aluno"
+#0 /var/www/ava/app/Views/aluno/lista_aluno.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/ava/system/View/View.php(210): include('...')
+#2 /var/www/ava/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/ava/app/Controllers/AlunoController.php(62): view()
+#5 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\AlunoController->index()
+#6 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-03-30 18:18:21 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`s_certificado_emitido`, CONSTRAINT `s_certificado_emitido_cod_aluno_foreign` FOREIGN KEY (`cod_aluno`) REFERENCES `s_aluno` (`cod_aluno`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2022-03-30 18:18:21 --> Cannot add or update a child row: a foreign key constraint fails (`ava`.`s_certificado_emitido`, CONSTRAINT `s_certificado_emitido_cod_aluno_foreign` FOREIGN KEY (`cod_aluno`) REFERENCES `s_aluno` (`cod_aluno`) ON DELETE CASCADE ON UPDATE CASCADE)
+#0 /var/www/ava/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/ava/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/ava/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/ava/app/Controllers/CertificadoController.php(69): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\CertificadoController->geraCertificado()
+#5 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-03-30 18:20:50 --> Failed to open the referenced table 's_aluno'
+CRITICAL - 2022-03-30 18:32:30 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:33:05 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:34:04 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:34:07 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:35:10 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:35:11 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:35:38 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:35:39 --> Cannot redeclare App\Controllers\UserController::delete()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 18:36:14 --> Invalid file: user/users.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/UserController.php(57): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-30 18:36:19 --> Invalid file: user/users.php
+#0 /var/www/ava/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/ava/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /var/www/ava/app/Controllers/UserController.php(57): view()
+#3 /var/www/ava/system/CodeIgniter.php(832): App\Controllers\UserController->index()
+#4 /var/www/ava/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/ava/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/ava/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

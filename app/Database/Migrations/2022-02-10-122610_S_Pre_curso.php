@@ -62,7 +62,8 @@ class S_Pre_curso extends Migration
 
         $this->forge->addKey('id_pre_curso', true);
         
-        $this->forge->addForeignKey('cod_aluno', 's_aluno', 'cod_aluno', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('cod_aluno', 's_user', 'cod_aluno', 'CASCADE', 'CASCADE');
+        
         $this->forge->addForeignKey('id_curso', 'p_curso', 'id_curso', 'CASCADE', 'CASCADE');
 
         $this->forge->createTable('s_pre_curso', false);

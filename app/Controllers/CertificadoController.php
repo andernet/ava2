@@ -50,7 +50,7 @@ class CertificadoController extends BaseController
 	 }
 
 
-	 public function geraCertificado($cod_aluno = null){
+	 public function geraCodigo($cod_aluno = null){
 	 	$db = \Config\Database::connect();
 	 	$builder = $db->table('s_certificado_emitido');
 	 	$builder->select('cod_aluno');
@@ -58,16 +58,16 @@ class CertificadoController extends BaseController
 	 	$data['dados'] = $builder->get()->getRow();
 		if ( isset($data['dados'])) {
 			$data =[
-				'erro' => 'ja',
+				'erro' => 'ja tem',
 			];
-			return redirect()->to('AlunoController/');
+			return redirect()->to('UserController/');
 		} else {
 			$cod_verificacao = uniqid();
 			//$sql = "insert into s_certificado_emitido (cod_aluno, cod_verificacao) VALUES('" . $data['dados']."','". $cod_verificacao ."'";
 			$sql = "insert into s_certificado_emitido (cod_aluno, cod_verificacao) VALUES('".$cod_aluno."', '". $cod_verificacao ."')";
 			
 			$db->query($sql);
-			return redirect()->to('/AlunoController/');
+			return redirect()->to('/UserController/');
 		}
 	 }
 

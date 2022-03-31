@@ -34,7 +34,7 @@ class S_Respostas_ava extends Migration
 
         $this->forge->addKey('id_respostas_ava', true);
         
-        $this->forge->addForeignKey('cod_aluno', 's_aluno', 'cod_aluno', 'CASCADE', 'CASCADE');
+        $this->forge->addForeignKey('cod_aluno', 's_user', 'cod_aluno', 'CASCADE', 'CASCADE');
 
         $this->forge->createTable('s_respostas_ava', false);
         
